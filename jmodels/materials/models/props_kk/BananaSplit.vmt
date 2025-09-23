@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_kk/BananaSplit"
+	"$envmap" "models/hl1_fixedenv/v_crowbar/chrome"
+	"$envmapmask" "models/props_kk/BananaSplit_m"
+	"$normalmap" "models/props_kk/BananaSplit_n"
+}

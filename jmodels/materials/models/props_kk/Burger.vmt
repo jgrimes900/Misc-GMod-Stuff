@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_kk/Burger"
+	"$normalmap" "models/props_kk/Burger_n"
+}

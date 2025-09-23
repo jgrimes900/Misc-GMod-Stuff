@@ -1,0 +1,11 @@
+"farlands.general_ambience"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/town_ambience.wav"
+		"pitch"		"100"
+	}
+}

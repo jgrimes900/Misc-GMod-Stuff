@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/biglolly/boid/buter"
+	"$translucent" 1
+}

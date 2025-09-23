@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/simpsons_hitrun/buzzcola_crate"
+	"$surfaceprop" "Wood_Crate"
+}

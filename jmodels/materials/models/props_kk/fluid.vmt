@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_kk/fluid"
+	Proxies 
+	{
+		"ColorSlot1"
+		{
+			name "fluid"
+			fcolor "1.0 1.0 1.0"
+			resultVar $color2
+		}
+}

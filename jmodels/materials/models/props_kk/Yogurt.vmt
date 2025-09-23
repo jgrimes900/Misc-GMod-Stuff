@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_kk/Yogurt"
+	"$envmap" "models/hl1_fixedenv/v_crowbar/chrome"
+	"$envmapmask" "models/props_kk/Yogurt_m"
+	"$normalmap" "models/props_kk/Yogurt_n"
+}

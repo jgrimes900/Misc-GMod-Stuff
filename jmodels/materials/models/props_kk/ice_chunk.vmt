@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_kk/ice_chunk"
+	"$translucent" 1
+}

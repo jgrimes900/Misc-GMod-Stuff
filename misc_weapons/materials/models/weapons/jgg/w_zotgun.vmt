@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/jgg/w_zotgun"
+	"$surfaceprop" "Weapon"
+	"$nocull" 1
+}
