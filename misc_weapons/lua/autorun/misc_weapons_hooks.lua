@@ -181,16 +181,3 @@ hook.Add("AcceptInput", "ghost_detector_map_hook", function(ent, input, activato
 		end
 	end
 end)
-
-
-hook.Add("PlayerSpawn", "gamemode_weapon_spawn_hook", function(ply)
-	if(gmod.GetGamemode().ThisClass == "gamemode_ghosthunt") and (misc_weapons["supported_items"]["gamemode_ghosthunt"][game.GetMap()]) and (ply:Team() == 1)then
-		timer.Simple( 0, function()
-			for _,v in ipairs(misc_weapons["supported_items"]["gamemode_ghosthunt"][game.GetMap()]) do
-				ply:Give( "weapon_" .. v )
-			end
-		end)
-	end
-end)
-
-
