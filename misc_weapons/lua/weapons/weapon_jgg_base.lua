@@ -197,7 +197,7 @@ function SWEP:Holster()
 	if SERVER then
 		self:CallOnClient("Holster")
 	end
-	if CLIENT and IsValid(self.Owner) then
+	if CLIENT and IsValid(self.Owner) and self.ShowViewModel == false  then
 		local vm = self.Owner:GetViewModel()
 		if IsValid(vm) then
 			vm:SetRenderMode(0)
@@ -213,7 +213,7 @@ function SWEP:Deploy()
 	if SERVER then
 		self:CallOnClient("Deploy")
 	end
-	if CLIENT and IsValid(self.Owner) then
+	if CLIENT and IsValid(self.Owner) and self.ShowViewModel == false then
 		local vm = self.Owner:GetViewModel()
 		if IsValid(vm) then
 			vm:SetRenderMode(1)
